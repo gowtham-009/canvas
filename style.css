@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0%;
+}
+#canvas{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+#btn{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    font-size: 1.50rem;
+    color: rgb(243, 243, 243);
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.canva{
+    width: 80%;
+    height: 500px;
+    background-color: rgb(34, 6, 61);
+    position: absolute;
+    top: 6%;
+    left: 10%;
+    visibility: hidden;
+  
+   
+    
+
+}
+.show{
+    visibility:visible;
+}
+.close{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2%;
+}
+.close i{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+.canva p{
+    margin-top: 3%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.10rem;
+    padding: 1%;
+    line-height: 1.5;
+}
+.canva h1{
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    margin-top: 2%;
+   
+}
